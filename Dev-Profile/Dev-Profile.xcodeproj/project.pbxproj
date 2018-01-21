@@ -12,6 +12,7 @@
 		3A5C388C2011BF48004FF2E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A5C388A2011BF48004FF2E2 /* Main.storyboard */; };
 		3A5C388E2011BF48004FF2E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A5C388D2011BF48004FF2E2 /* Assets.xcassets */; };
 		3A5C38912011BF48004FF2E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A5C388F2011BF48004FF2E2 /* LaunchScreen.storyboard */; };
+		3A5C389A2011C431004FF2E2 /* LogoRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5C38992011C431004FF2E2 /* LogoRadius.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3A5C388D2011BF48004FF2E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A5C38902011BF48004FF2E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A5C38922011BF48004FF2E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A5C38992011C431004FF2E2 /* LogoRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoRadius.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		3A5C38852011BF48004FF2E2 /* Dev-Profile */ = {
 			isa = PBXGroup;
 			children = (
+				3A5C38982011C3DF004FF2E2 /* View */,
 				3A5C38862011BF48004FF2E2 /* AppDelegate.swift */,
 				3A5C38882011BF48004FF2E2 /* ViewController.swift */,
 				3A5C388A2011BF48004FF2E2 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				3A5C38922011BF48004FF2E2 /* Info.plist */,
 			);
 			path = "Dev-Profile";
+			sourceTree = "<group>";
+		};
+		3A5C38982011C3DF004FF2E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3A5C38992011C431004FF2E2 /* LogoRadius.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A5C389A2011C431004FF2E2 /* LogoRadius.swift in Sources */,
 				3A5C38892011BF48004FF2E2 /* ViewController.swift in Sources */,
 				3A5C38872011BF48004FF2E2 /* AppDelegate.swift in Sources */,
 			);
